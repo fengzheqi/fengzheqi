@@ -1,7 +1,7 @@
 ##### Menu
 menu:
-  博客: /
-  随笔: /archives
+  首页: /
+  博客: /archives
   分享: /share
   关于我: /about
 ## you can create `tags` and `categories` folders in `../source`.

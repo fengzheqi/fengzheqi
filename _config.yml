@@ -68,4 +68,5 @@ theme: pacman
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repo: https://github.com/Tommy-feng/fengzheqi.com.git

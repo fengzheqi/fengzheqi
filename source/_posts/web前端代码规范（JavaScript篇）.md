@@ -1,6 +1,6 @@
 title: web前端代码规范--JavaScript篇
 date: 2015-11-12
-tags: javascript
+tags: JavaScript
 ---
 
 ### web前端代码规范--JavaScript篇

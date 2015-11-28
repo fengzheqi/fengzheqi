@@ -1,9 +1,9 @@
-title: HTML5中canvas标签小谈
+title: HTML5中canvas标签
 date: 2015-11-25
 tags: HTML
 ---
 
-### HTML5中canvas标签小谈
+### HTML5中canvas标签
 #### 一、 canvas（画布）
 &emsp;&emsp;在HTML5出现之前，网页中只能用`img`标签来显示静态图片，为看增强图形实时绘制和渲染的效果，后来引入了一些第三方解决方案，如Flash Play等。
 &emsp;&emsp;在HTML5发布之后，引入了`canvas`标签，允许JavaScript动态的绘制图形。

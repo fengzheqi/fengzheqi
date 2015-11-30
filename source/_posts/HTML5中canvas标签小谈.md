@@ -7,6 +7,25 @@ tags: HTML
 #### 一、 canvas（画布）
 &emsp;&emsp;在HTML5出现之前，网页中只能用`img`标签来显示静态图片，为看增强图形实时绘制和渲染的效果，后来引入了一些第三方解决方案，如Flash Play等。
 &emsp;&emsp;在HTML5发布之后，引入了`canvas`标签，允许JavaScript动态的绘制图形。
+1. 使用canvas，必须先设置元素的width和height属性；
+	
+	```html
+	<canvas id="test" width="500" heigth="500">
+	<!--如果浏览器不支持canvas标签，显示下面提示-->
+	您的浏览器不支持canvas标签，请您更新浏览器享受更好的体验！
+	</canvas>
+	```
+2. 在js文件中取得绘画上下文的引用，调用getContext()方法并传入上下文的名字。
+
+	```javascript
+	//获取元素对象
+	var test = document.getElementById('test');
+	if(test.getContext) { //判断是否浏览器是否支持<canvas>元素
+	  //获取2D上下文对象
+	  var context = test.getContext('2d'); 
+	  ......
+	 }
+	```
 
 #### 二、canvas中运用WebGL
 

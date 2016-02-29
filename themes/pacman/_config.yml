@@ -2,8 +2,6 @@
 menu:
   首页: /
   博客: /archives
-  分享: /share
-  关于我: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -61,10 +59,10 @@ author:
   google_plus:    ## eg:116338260303228776998 for https://plus.google.com/u/0/116338260303228776998
   intro_line1: "你好，欢迎来到我的博客！" ## eg: "Hello ,I'm Larry Page in Google."
   intro_line2: "Hello， welcome to my blog！" ## eg: "This is my blog,believe it or not."
-  weibo: 2638527144  for http://weibo.com/u/2638527144   ## e.g. 436062867 for http://weibo.com/436062867
-  twitter: fengzheqi for https://twitter.com/fengzheqiyx   ## e.g. yangjiansky for https://twitter.com/yangjiansky
-  github: Tommy-feng for https://github.com/Tommy-feng    ## e.g. A-limon for https://github.com/A-limon
-  facebook: fengzheqiyx for https://www.facebook.com/fengzheqiyx ## e.g. yangjian for https://favebook.com/yangjian
+  weibo: 2638527144     ## e.g. 436062867 for http://weibo.com/436062867
+  twitter: fengzheqi    ## e.g. yangjiansky for https://twitter.com/yangjiansky
+  github: Tommy-feng    ## e.g. A-limon for https://github.com/A-limon
+  facebook: fengzheqiyx ## e.g. yangjian for https://favebook.com/yangjian
   tsina:  ## e.g. 1664838973  Your weibo ID,It will be used in share button.
   linkedin:  ## e.g. in/jeffweiner08 for https://www.linkedin.com/in/jeffweiner08
 
